@@ -1,5 +1,5 @@
-# oaux is an OAuth auxiliary tool for PRAW that helps you setup,
-# login and refresh the OAuth for your bot/script/app.
+# oaux is an OAuth auxiliary tool for PRAW that helps you setup
+# and automate the Reddit OAuth login process for your bot/script/app.
 # Made with Python 3.4.0 by /u/twistitup
 
 import praw, configparser, time
