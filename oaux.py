@@ -32,7 +32,7 @@ def setup():
     with open("oaux.ini", "w") as modifiedConfig:
         config.write(modifiedConfig)
     print(
-        "Your OAuth is all set up and ready to go! Use r = oauth.login()",
+        "Your OAuth is all set up and ready to go! Use r = oaux.login()",
         "in your bot to obtain a PRAW AuthenticatedReddit instance.")
 
 # Use r = oaux.login() in your bot file and you'll be logged in!
